@@ -1,0 +1,27 @@
+dependencies:
+- name: pblgllgs-common
+  repository: file://../../pblgllgs-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../pblgllgs-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../pblgllgs-services/eurekaserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../pblgllgs-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../pblgllgs-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../pblgllgs-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../pblgllgs-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../pblgllgs-services/message
+  version: 0.1.0
+digest: sha256:45629e7aa27d449fec43805dcd3f99b099bec6536001edf439d2f84c1f5fb78e
+generated: "2024-01-26T22:55:03.960231201-03:00"

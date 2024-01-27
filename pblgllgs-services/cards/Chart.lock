@@ -1,0 +1,6 @@
+dependencies:
+- name: pblgllgs-common
+  repository: file://../../pblgllgs-common
+  version: 0.1.0
+digest: sha256:0158e9e7f14706d324d2f23bb2213fd1426c09282b69e1e775ea2ed90ca23f20
+generated: "2024-01-26T22:18:26.912861485-03:00"
