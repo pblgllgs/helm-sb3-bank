@@ -1,7 +1,11 @@
 
-obs-up: grafana-up loki-up tempo-up kafka-up keycloak-up prometheus-up
+obs-up: grafana-up loki-up tempo-up kafka-up prometheus-up
 
-obs-down: grafana-down loki-down tempo-down kafka-down keycloak-down prometheus-down
+obs-down: grafana-down loki-down tempo-down kafka-down prometheus-down
+
+keycloak-start: keycloak-up
+
+keycloak-stop: keycloak-down
 
 grafana-up:
 	@echo Instalando grafana
