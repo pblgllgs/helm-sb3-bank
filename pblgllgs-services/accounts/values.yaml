@@ -3,11 +3,11 @@ serviceName: accounts
 appLabel: accounts
 appName: accounts
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: pblgllgs/accounts-sb3
-  tag: v3-kafka-k8s
+  tag: v3-kafka-k8s-dc
 
 containerPort: 8080
 

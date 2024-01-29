@@ -7,7 +7,7 @@ replicaCount: 1
 
 image:
   repository: pblgllgs/message-sb3
-  tag: v3-kafka
+  tag: v3-kafka-dc
 
 containerPort: 9010
 
